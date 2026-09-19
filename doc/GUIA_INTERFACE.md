@@ -11,7 +11,7 @@ documentos na SEFAZ/SVRS utilizando certificado digital A1.
 
 ## Tela inicial
 
-![Tela inicial do NFC-e Monitor](doc/images/tela-inicial.jpg)
+![Tela inicial do NFC-e Monitor](images/tela_inicial.jpg)
 
 A tela principal concentra as funções de carregamento dos XMLs,
 consulta à SEFAZ, pesquisa, filtros e exportação dos resultados.
