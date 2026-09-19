@@ -2,6 +2,27 @@
 
 Aplicação desktop em Python para **análise, conferência e consulta fiscal de NFC-e (modelo 65)** a partir de arquivos XML, com consulta de situação na **SEFAZ/SVRS** utilizando certificado digital A1.
 
+## 🖥️ Aplicação em funcionamento
+
+A imagem abaixo demonstra o **NFC-e Monitor realizando uma consulta fiscal na SEFAZ/SVRS**, exibindo os documentos carregados, a situação do XML e o retorno da consulta online.
+
+![NFC-e Monitor - Consulta SEFAZ](doc/images/consulta_sefaz.jpg)
+
+### Informações apresentadas
+
+A interface permite visualizar:
+
+- **NFC-e carregadas** — quantidade de documentos encontrados nos XMLs.
+- **SEFAZ autorizadas** — documentos confirmados como autorizados na consulta online.
+- **SEFAZ canceladas** — documentos identificados como cancelados.
+- **Não consultadas** — documentos que ainda não passaram pela consulta online.
+- **Outros / erros** — retornos diferentes ou falhas durante a consulta.
+- **Status XML** — situação registrada no arquivo XML local.
+- **Situação SEFAZ** — situação fiscal retornada pela consulta online.
+- **cStat** — código de situação retornado pelo Web Service.
+- **Protocolo** — protocolo relacionado à autorização/evento.
+- **Chave de acesso** — identificação da NFC-e.
+
 ## Necessidade real
 
 A aplicação foi desenvolvida para facilitar a conferência de grandes volumes de NFC-e armazenadas em XML. Um XML local pode mostrar que uma nota foi originalmente autorizada, mas isso não garante, sozinho, que ela permaneça autorizada: pode existir um evento posterior, como cancelamento, cujo XML não esteja na pasta analisada.
