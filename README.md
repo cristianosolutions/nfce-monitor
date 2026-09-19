@@ -6,7 +6,7 @@ Aplicação desktop em Python para **análise, conferência e consulta fiscal de
 
 A imagem abaixo demonstra o **NFC-e Monitor realizando uma consulta fiscal na SEFAZ/SVRS**, exibindo os documentos carregados, a situação do XML e o retorno da consulta online.
 
-![NFC-e Monitor - Consulta SEFAZ](doc/images/consulta_sefaz.jpg)
+![NFC-e Monitor - Consulta SEFAZ](doc/images/infor_consulta_sefaz.jpg)
 
 ### Informações apresentadas
 
