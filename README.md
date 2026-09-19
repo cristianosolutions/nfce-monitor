@@ -176,3 +176,9 @@ Ainda deve ser validado, quando houver exemplo disponível, o comportamento comp
 ## Publicação
 
 Antes de tornar o repositório público, confirme que a identidade visual e demais recursos podem ser publicados. Para uso exclusivamente interno, prefira um repositório privado.
+
+## 📖 Documentação
+
+- [Manual do usuário](doc/MANUAL_USUARIO.md)
+- [Guia da interface](doc/GUIA_INTERFACE.md)
+- [Histórico de desenvolvimento](doc/DESENVOLVIMENTO.md)
